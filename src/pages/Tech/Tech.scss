@@ -1,0 +1,131 @@
+.tech{
+    &-header{
+        span{
+            color: #80808080;
+            font-family: I4;
+            font-weight: 400;
+            font-size: 24px;
+            letter-spacing: -0.456px;
+            @include media(500){
+                font-size: 16px;
+            }
+        }
+        margin-bottom: 80px;
+    }
+    &-main{
+        &-section{
+            margin-bottom: 80px;
+            h2{
+                font-family: I7;
+                font-weight: 700;
+                font-size: 48px;
+                color: #80808080;
+                margin-top: 60px;
+                margin-bottom: 32px;
+            }
+            &-catalog{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 16px;
+                justify-content: center;
+                &-card{
+                    @include media (685){
+                        justify-content: space-between;
+                        flex-direction: row;
+                        padding: 13px 14px;
+                        height: 100%;
+                        align-items: center !important;
+                        width: 100%;
+                    }
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    // flex-direction: column;
+                    position: relative;
+                    width: 320px;
+                    height: 300px;
+                    border-radius: 22px;
+                    border: 1px solid var(--dark-card-border, #383737);
+                    background: var(--basic-onyx, #181818c4);
+                    img{
+                        width: 114px;
+                        border-radius: 24px;
+                        @include media (685){
+                            width: 60px;
+                        }
+                        &:nth-of-type(){
+                            background: #000;
+                        }
+                    }
+                    &-info{
+                        padding: 0 24px;
+                        position: absolute;
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-between;
+                        align-items: center;
+                        bottom: 24px;
+                        left: 50%;
+                        transform: translate(-50%, 0);
+                        color: white;
+                        @include media(685){
+                            position: static;
+                            left: 0;
+                            transform: translate(0);
+                            display: flex;
+                            height: 100%;
+                            align-items: center;
+                            justify-content: space-between;
+                        }
+                        p{
+                            font-family: I6;
+                            font-weight: 600;
+                            font-size: 20px;
+                            @include media (685){
+                                font-size: 16px;
+                            }
+                        }
+                        span{
+                            border-radius: 26px;
+                            border: 1px solid #272525;
+                            background: var(--basic-onyx, #181818);
+                            padding: 6px 12px;
+                            @include media (685){
+                                font-size: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.no{
+    // &:nth-child(1){
+    //     background: #000;
+    // }
+    border-radius: 0px !important;
+    &-nah{
+        background: white;
+        padding: 45px 9px;
+        @include media (685){
+            padding: 23px 4px;
+        }
+    }
+    &-vue{
+        background: #385944;
+        padding: 22px 18px;
+    }
+    &-sass{
+        background: #402F38;
+        padding: 18px 5px;
+
+    }
+    &-pinia{
+        background: #131926;
+        padding: 10px 25px;
+        @include media (685){
+            padding: 10px 17px;
+        }
+    }
+}

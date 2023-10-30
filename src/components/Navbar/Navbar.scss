@@ -1,0 +1,44 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding: 16px;
+    border-radius: 12px;
+    background: rgba(24, 24, 29, 0.30);
+    backdrop-filter: blur(2px);
+    align-items: center;
+    ul{
+        display: flex;
+        align-items: center;    
+        gap: 40px;
+        // color: #C5C5C5;
+        font-family: I5;
+        font-weight: 500;
+        font-size: 16px;
+        a{
+            color: #C5C5C5 !important;
+        }
+        img{
+            width: 40px !important;
+            background: none !important;
+        }
+    }
+    &-item{
+        display: flex;
+        flex-direction: row;
+        &-links{
+            display: flex;
+            gap: 24px;
+            padding-right: 24px;
+            border-right: 2px solid rgba(255, 255, 255, 0.25);
+            &-theme{
+                padding-left: 24px; 
+            }
+        }
+    }
+    &1{
+        @include media (780){
+            display: none;
+        }
+    }
+}

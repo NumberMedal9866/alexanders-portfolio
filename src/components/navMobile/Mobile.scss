@@ -1,0 +1,33 @@
+.mobile{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 15px;
+    border-radius: 12px;
+    border: 1px solid rgba(39, 38, 44, 0.38);
+    background: rgba(24, 24, 29, 0.60);
+    backdrop-filter: blur(2px);
+    z-index: 999;
+    display: none; 
+    @include media(780){
+        display: block;
+    }
+    &-btn{
+        padding: 10px 16px;
+        display: flex;
+        a{
+            @include media (430){
+                padding: 10px 10px;
+            }
+            padding: 8px 15px;
+            border-radius: 12px;
+            // background: var(--dark-white-10, rgba(255, 255, 255, 0.10));
+            img{
+                color: #fff;
+            }
+            &.router-link-exact-active{
+                background: var(--dark-white-10, rgba(255, 255, 255, 0.10));
+            }
+        }
+    }
+}
