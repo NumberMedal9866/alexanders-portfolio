@@ -14,7 +14,7 @@
                     <a href="https://uz.linkedin.com/" target="_blank"><img src="@/assets/images/in.svg" alt=""></a>
                     <a href="https://twitter.com/alexander_webdv" target="_blank"><img src="@/assets/images/twitter.svg" alt=""></a>                   
                 </div>
-                <img src="@/assets/images/sun.svg" class="nav-item-links-theme" alt="">
+                <img src="@/assets/images/Sun.svg" class="nav-item-links-theme" alt="">
             </div>
         </nav>
     </div>
