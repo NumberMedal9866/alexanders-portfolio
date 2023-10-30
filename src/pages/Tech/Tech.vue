@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="tech-main-section-catalog-card">
-                    <img src="@/assets/images/VScode.png" alt="">
+                    <img src="@/assets/images/VSCode.png" alt="">
                     <div class="tech-main-section-catalog-card-info">
                         <p>VS code</p>
                         <span>Editor</span>
