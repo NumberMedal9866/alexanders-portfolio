@@ -2,7 +2,8 @@
     <div class="container nav1">
         <nav class="nav">
             <ul>
-                <li><router-link to="/"><img src="@/assets/images/logo-no-background.svg" alt=""></router-link></li>
+                <li><router-link to="/" class="nill"><img src="@/assets/images/logo-no-background.svg" alt=""></router-link></li>
+                <li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/about">About</router-link></li>
                 <li><router-link to="/projects">Work</router-link></li>
                 <li><router-link to="/tech">Tech</router-link></li>

@@ -14,21 +14,21 @@
                 <p>New message</p>
             </div>
             <div class="message-main">
-                <form action="submit">
+                <form @submit.prevent="handleSubmit" ref="form">
                     <div class="message-main-input">
                         <span>Email:</span>
-                        <input type="text" placeholder="Enter your email adress" required>
+                        <input type="email" placeholder="Enter your email adress" required name="email">
                     </div>
                     <div class="message-main-input">
                         <span>Name:</span>
-                        <input type="text" placeholder="Enter your name">
+                        <input type="text" placeholder="Enter your name" name="name">
                     </div>
                     <div class="message-main-input">
-                        <span>Subject:</span>
-                        <input type="text" placeholder="Enter your subject">
+                        <span>Number:</span>
+                        <input type="number" placeholder="Enter your phone nubmer" name="number">
                     </div>
-                    <textarea name="lol" id="1" cols="30" rows="10" placeholder="Write your message here" required></textarea>
-                    <button>Send</button>
+                    <textarea id="1" cols="30" rows="10" placeholder="Write your message here" required name="message"></textarea>
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </div>
@@ -36,7 +36,21 @@
 </template>
 
 <script setup>
+import { ref } from 'vue';
+import emailjs from '@emailjs/browser';
 
+const form = ref(null);
+
+const handleSubmit = () => {
+    emailjs.sendForm('service_g5afzjp', 'template_dbx3kjh', form.value, 'D9IhY7x-ylH7EhbZQ')
+      .then((result) => {
+        console.log('SUCCESS!', result.text);
+        alert("Your From has been submitted, please wait for me to get in touch with you")
+      })
+      .catch((error) => {
+        console.log('FAILED...', error.text);
+      });
+  }
 </script>
 
 <style lang="scss" scoped>

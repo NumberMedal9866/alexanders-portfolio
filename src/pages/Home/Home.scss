@@ -326,8 +326,8 @@
 // @include media 
 .hidden{
     opacity: 0;
-    transition: 3s all;
-    transform: translateX(-100%);
+    transition: 2.5s all;
+    transform: translateX(-30%);
     filter: blur(5px);
 }
 .show{
