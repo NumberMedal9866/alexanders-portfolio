@@ -63,6 +63,9 @@ onBeforeUnmount(() => {
 }
 .effect{
     z-index: -999 !important;
+    @media screen and (max-width: 780px){
+      display: none;
+    }
 }
 /* #blur{
     height: 100%;
