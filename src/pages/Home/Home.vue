@@ -36,7 +36,7 @@
                         <img src="@/assets/images/Subbi.svg" alt="">
                         <h3>Subbi –– The free subscriptions manager</h3>
                         <p>Subbi is a side project that I’ve built to help me keep track of how much I spend on subscriptions and also to prevent the “accidental” bill after a 14-day trail ends. It helps you keep track of bills like Netflix, Spotify, Xbox Game Pass, Bus Card, Bank Cards, and many more.</p>
-                        <a href="#">Visit site</a>
+                        <a href="https://note-vue-woad.vercel.app/" target="_blank">Visit site</a>
                     </div>
                     <img src="@/assets/images/Subbi.png" alt="" class="card-info-img">
                 </div>
@@ -45,7 +45,7 @@
                         <img src="@/assets/images/Subbi.svg" alt="">
                         <h3>Subbi –– The free subscriptions manager</h3>
                         <p>Subbi is a side project that I’ve built to help me keep track of how much I spend on subscriptions and also to prevent the “accidental” bill after a 14-day trail ends. It helps you keep track of bills like Netflix, Spotify, Xbox Game Pass, Bus Card, Bank Cards, and many more.</p>
-                        <a href="#">Visit site</a>
+                        <a href="https://chat-vue-flame.vercel.app/" target="_blank">Visit site</a>
                     </div>
                     <img src="@/assets/images/Subbi.png" alt="" class="card-info-img">
                 </div>
@@ -54,7 +54,7 @@
                         <img src="@/assets/images/Subbi.svg" alt="">
                         <h3>Subbi –– The free subscriptions manager</h3>
                         <p>Subbi is a side project that I’ve built to help me keep track of how much I spend on subscriptions and also to prevent the “accidental” bill after a 14-day trail ends. It helps you keep track of bills like Netflix, Spotify, Xbox Game Pass, Bus Card, Bank Cards, and many more.</p>
-                        <a href="#">Visit site</a>
+                        <a href="#" target="_blank">Visit site</a>
                     </div>
                     <img src="@/assets/images/Subbi.png" alt="" class="card-info-img">
                 </div>
@@ -68,14 +68,14 @@
                 <router-link to="/about" class="infocard">
                     <h3>About me</h3>
                     <span>Who I am and what I do</span>
-                    <img src="@/assets/images/virt-avatar.png" alt="" class="infocard-img">
+                    <img src="@/assets/images/avaa.png" alt="" class="infocard-img">
                 </router-link>
-                <router-link to="/about" class="infocard">
+                <router-link to="/tech" class="infocard">
                     <h3>Tech Stack</h3>
                     <p>The dev tools, apps, devices, and games I use and play.</p>
                     <img src="@/assets/images/tech-stack.svg" alt="" class="infocard-tech">
                 </router-link>
-                <router-link to="/about" class="infocard">
+                <router-link to="/contact" class="infocard">
                     <h3>Contact me</h3>
                     <span>My contacts and social</span>
                     <img src="@/assets/images/phone.svg" alt="" class="infocard-img2">

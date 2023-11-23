@@ -24,6 +24,7 @@
                     </ul>
                 </div>
             </div>
+            
         </div>
         <!-- <img src="@/assets/image/blur.png" alt="" class="blurry"> -->
           <!-- <div class="effect">
