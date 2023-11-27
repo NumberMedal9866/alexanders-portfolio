@@ -24,18 +24,30 @@ const moveBlob = (event) => {
       left: `${pageX}px`,
       top: `${pageY}px`,
     },
-    { duration: 3000, fill: 'forwards' }
+    { duration: 4000, fill: 'forwards' }
+  );
+};
+const handleScroll = (event) => {
+  const pageX = null; // Adjust for viewport center
+  const pageY = window.scrollY + window.innerHeight / 2; // Adjust for viewport center
+  // Use pageX and pageY values as needed
+    blob.value.animate(
+    {
+      // left: `${pageX}px`,
+      top: `${pageY}px`,
+    },
+    { duration: 2000, fill: 'forwards' }
   );
 };
 
 onMounted(() => {
   document.addEventListener('mousemove', moveBlob);
-  document.addEventListener('scroll', moveBlob);
+  document.addEventListener('scroll', handleScroll);
 });
 
 onBeforeUnmount(() => {
   document.removeEventListener('mousemove', moveBlob);
-  document.addEventListener('scroll', moveBlob);
+  document.removeEventListener('scroll', handleScroll);
 });
 </script>
 
