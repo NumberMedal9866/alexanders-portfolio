@@ -30,13 +30,13 @@
     aspect-ratio: 1;
     position: absolute;
     left: 50%;
-    top: 50%;
+    // top: 50%;
     translate: -50% -50%;
     border-radius: 50%;
     animation: rotate 17s infinite;
     filter: blur(120px);
     z-index: -999 !important;
-    position: fixed;
+    // position: fixed;
     top: 0;
     display: none;
     opacity: 0;
