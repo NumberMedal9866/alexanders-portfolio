@@ -12,7 +12,7 @@
             <div class="nav-item">
                 <div class="nav-item-links">
                     <a href="https://github.com/NumberMedal9866" target="_blank"><img src="@/assets/images/github.svg" alt=""></a>
-                    <a href="https://uz.linkedin.com/" target="_blank"><img src="@/assets/images/in.svg" alt=""></a>
+                    <a href="https://t.me/s/barsushe" target="_blank"><img src="@/assets/images/tg.svg" alt=""></a>
                     <a href="https://twitter.com/alexander_webdv" target="_blank"><img src="@/assets/images/twitter.svg" alt=""></a>                   
                 </div>
                 <img src="@/assets/images/Sun.svg" class="nav-item-links-theme" alt="" v-if="sdf">
