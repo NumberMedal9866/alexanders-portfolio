@@ -26,10 +26,10 @@
             </div>
             
         </div>
+          <div class="effectt">
+            <div ref="blob" class="blobb alt"></div>
+          </div>
         <!-- <img src="@/assets/image/blur.png" alt="" class="blurry"> -->
-          <!-- <div class="effect">
-            <div ref="blob" class="blob alt"></div>
-          </div> -->
     </footer>
     
 </template>

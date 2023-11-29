@@ -3,6 +3,9 @@
                 <img src="@/assets/images/logoMob.svg" alt="">
             </div>
     <header class="headerr container">
+                            <div class="effectt">
+                                <div ref="blob" class="blobb al"></div>
+                            </div>
         <div class="container">
             <div class="title">
                 <h1>I'm</h1>

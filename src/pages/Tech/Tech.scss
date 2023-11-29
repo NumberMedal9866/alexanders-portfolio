@@ -1,5 +1,7 @@
 .tech{
     &-header{
+        position: relative;
+        overflow-x: clip;
         span{
             color: #80808080;
             font-family: I4;

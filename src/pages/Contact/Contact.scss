@@ -1,5 +1,7 @@
 .contact-header{
     margin-bottom: 50px;
+    overflow-x: clip;
+    position: relative;
     @include media (780){
         padding-left: 20px;
     }

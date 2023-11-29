@@ -58,6 +58,8 @@
     }
 }
 .logo-mob{
+    // overflow: hidden;
+    // overflow-y: visible !important;
     display: none;
     display: flex;
     justify-content: center;
@@ -74,6 +76,7 @@
     }
 }
 .headerr{
+    overflow-x: clip;
     position: relative;
     margin-top: 170px;
     margin-bottom: 375px;
@@ -131,9 +134,10 @@
 }
 .avatar{
     position: absolute;
+    // top: -5px;
     top: 0;
-    right: 0px;
-    width: 450px;
+    right: 15px;
+    width: 400px;
     z-index: -1;
     @include media (780){
         display: none;
@@ -250,7 +254,7 @@
         margin-bottom: 50px;
         font-family: I5;
         font-weight: 500;
-        line-height: 25px;
+        line-height: 25px;padding: 0 5px;
     }
 
 }

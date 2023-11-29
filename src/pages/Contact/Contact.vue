@@ -5,6 +5,9 @@
     <div class="contact-header container">
         <h1>Get in touch</h1>
         <span>Let's build awesome.</span>
+            <div class="effectt">
+                <div ref="blob al" class="blobb al"></div>
+            </div>
     </div>
     <div class="header-line"></div>
     <div class="container">

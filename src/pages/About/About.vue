@@ -6,6 +6,9 @@
         <div class="header-text container">
             <h1>A little bit about me</h1>
             <span>Who am I and what do I do</span>
+            <div class="effectt">
+                <div ref="blob al" class="blobb al"></div>
+            </div>
         </div>
         <div class="header-line"></div>
     </header>

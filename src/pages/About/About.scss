@@ -9,13 +9,19 @@ h1{
         // padding-top: 200px;
     }
 }
+.al{
+    top: -200px !important;
+    
+}
 .header{
     margin-bottom: 0;
     &-text{
+        position: relative;
+        overflow-x: clip;
         margin-bottom: 60px;
-        @include media (1100){
-            margin-left: 15px;
-        }
+        // @include media (1100){
+        //     margin-left: 15px;
+        // }
         span{
         color: #80808080;
         font-family: I4;

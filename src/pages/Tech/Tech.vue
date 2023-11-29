@@ -5,6 +5,9 @@
     <div class="tech-header container">
         <h1>Tech Stack</h1>
         <span>The dev tools, apps, devices, and games I use and play.</span>
+            <div class="effectt">
+                <div ref="blob al" class="blobb al"></div>
+            </div>
     </div>
     <div class="header-line"></div>
     <div class="tech-main container">
