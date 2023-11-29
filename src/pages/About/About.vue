@@ -30,7 +30,7 @@
                     <p>Always feel free to reach out to me via <a href="mailto: sstsoy1616@gmail.com">e-mail</a>, or follow me on <a href="twitter.com">Twitter</a>.</p>
                 </div>
                 <div class="main-text">
-                    <p>Let's build something great,</p>
+                    <p>Let's build something great, <br> P.S. this is my cat on the photo :)</p>
                 </div>
                 <div class="main-text-holder-div"><router-link to="/projects">See my work</router-link></div>
             </div>
